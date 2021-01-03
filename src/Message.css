@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,300&display=swap');
+.message{
+    padding: 10px;
+    margin: 10px;
+    width: fit-content;
+}
+
+.message_user{
+    margin-left: auto;
+    color: white;
+    text-align: left !important;
+}
+
+.message_userCard{
+    background-color: lightblue !important;
+    transition: 0.5s ease-out !important;
+}
+
+.message_guestCard{
+    background-color:   lightgray !important;
+}
+
+.message_typo{
+    border-radius: 10px;
+    font-family: 'Work Sans', sans-serif !important;
+    font-size: 1.5rem !important;
+}
